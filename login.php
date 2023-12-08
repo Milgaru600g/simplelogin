@@ -51,10 +51,10 @@
     $_SESSION['userid']=$row['id'];
     $_SESSION['username']=$row['name'];
     $_SESSION['userpoint']=$row['point'];
-    // 세션저장이 되었으니 index.php페이지로 이동
+    // 세션저장이 되었으니 php페이지로 이동
     echo "
         <script>
-            location.href='./index.php';
+            location.href='./login_success.php';
         </script>
     ";
 ?>
